@@ -1,7 +1,7 @@
 {
-  "name": "video-game-review",
+  "name": "vg-r",
   "version": "1.0.0",
-  "description": "This is my video game review website for my honors assignment on Coursera",
+  "description": "\"A video game review site\"",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -15,13 +15,5 @@
   "bugs": {
     "url": "https://github.com/Missing-Identity/Video-Game-Review/issues"
   },
-  "homepage": "https://github.com/Missing-Identity/Video-Game-Review#readme",
-  "devDependencies": {
-    "fsevents": "^2.1.3",
-    "lite-server": "^2.5.4",
-    "live-server": "^1.2.1"
-  },
-  "dependencies": {
-    "chokidar": "^3.4.0"
-  }
+  "homepage": "https://github.com/Missing-Identity/Video-Game-Review#readme"
 }
