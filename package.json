@@ -20,5 +20,12 @@
   "homepage": "https://github.com/Missing-Identity/Video-Game-Review#readme",
   "devDependencies": {
     "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "popper": "^1.0.1",
+    "popper.js": "^1.16.1",
+    "resolve-url": "^0.2.1"
   }
 }
