@@ -5,6 +5,7 @@ $background-dark: #512DA8;
 $background-red: #ff1c03;
 $head-text-green: #27db87;
 $head-text-yellow: #fac907;
+$carousel-item-height: 400px;
 
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
@@ -65,4 +66,15 @@ h2{
 
 p{
     padding-bottom: 10px;
+}
+
+.carousel{
+    background: rgba(255,255,255,0.7);
+    .carousel-item{
+        height: $carousel-item-height;
+            img{
+                position: relative;
+                min-height: 300px;
+            }
+    }  
 }

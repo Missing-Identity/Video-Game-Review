@@ -42,3 +42,11 @@ h2 {
 
 p {
   padding-bottom: 10px; }
+
+.carousel {
+  background: rgba(255, 255, 255, 0.7); }
+  .carousel .carousel-item {
+    height: 400px; }
+    .carousel .carousel-item img {
+      position: relative;
+      min-height: 300px; }
