@@ -2,7 +2,7 @@
   margin: 0px auto;
   padding: 70px 30px;
   background-image: linear-gradient(#fac907, #ff1c03);
-  color: white; }
+  color: #fffad1; }
 
 .navbar-dark {
   background-image: linear-gradient(#ff1c03, #fac907);
@@ -23,7 +23,7 @@ div #FeaturedButton {
   margin-top: 10px; }
 
 .maincontent {
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px; }
 
 #FeaturedButton {

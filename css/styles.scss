@@ -14,7 +14,7 @@ $head-text-yellow: #fac907;
 .jumbotron{
     @include no-margin(70px, 30px);
     background-image: linear-gradient($head-text-yellow, $background-red);
-    color: white;
+    color: #fffad1;
 }
 
 .navbar-dark{
@@ -42,7 +42,7 @@ div #FeaturedButton{
 }
 
 .maincontent{
-    background-color: rgba(255,255,255,0.6);
+    background-color: rgba(255,255,255,0.7);
     border-radius: 5px;
 }
 
