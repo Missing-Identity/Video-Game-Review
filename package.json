@@ -1,5 +1,5 @@
 {
-  "name": "vg-r",
+  "name": "video-game-review",
   "version": "1.0.0",
   "description": "\"A video game review site\"",
   "main": "index.js",
