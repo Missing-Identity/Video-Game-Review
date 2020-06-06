@@ -1,0 +1,9 @@
+.jumbotron {
+  margin: 0px auto;
+  padding: 70px 30px;
+  background-image: linear-gradient(#fac907, #ff1c03);
+  color: white; }
+
+.navbar-dark {
+  background-image: linear-gradient(#ff1c03, #fac907);
+  border-bottom: 1px inset #ddd; }

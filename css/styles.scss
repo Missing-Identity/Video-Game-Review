@@ -1,0 +1,23 @@
+$lt-gray: #ddd;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+$background-dark: #512DA8;
+$background-red: #ff1c03;
+$head-text-green: #27db87;
+$head-text-yellow: #fac907;
+
+@mixin no-margin($pad-up-down, $pad-left-right){
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+.jumbotron{
+    @include no-margin(70px, 30px);
+    background-image: linear-gradient($head-text-yellow, $background-red);
+    color: white;
+}
+
+.navbar-dark{
+    background-image: linear-gradient($background-red, $head-text-yellow);
+    border-bottom: 1px inset $lt-gray;
+}
