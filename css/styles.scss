@@ -5,7 +5,7 @@ $background-dark: #512DA8;
 $background-red: #ff1c03;
 $head-text-green: #27db87;
 $head-text-yellow: #fac907;
-$carousel-item-height: 450px;
+$carousel-item-height: 500px;
 $carousel-item-transition: 500px;
 $impo-button: #e8a005;
 $card-content-color: #d3ff6b;
@@ -77,12 +77,17 @@ p{
 .carousel{
     // background: rgba(211, 255, 107 , 0.7);
     .carousel-item{
-        height: $carousel-item-height;
+        // height: $carousel-item-height;
             img{
                 position: relative;
-                min-height: 300px;
+                max-height: 600px;
+                // max-width: 1300px;
             }
     }  
+}
+
+.indexcaro{
+    margin-top: 15px;
 }
 
 .navigation-instructions{

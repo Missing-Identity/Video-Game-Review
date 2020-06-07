@@ -46,11 +46,12 @@ h2 {
 p {
   padding-bottom: 10px; }
 
-.carousel .carousel-item {
-  height: 450px; }
-  .carousel .carousel-item img {
-    position: relative;
-    min-height: 300px; }
+.carousel .carousel-item img {
+  position: relative;
+  max-height: 600px; }
+
+.indexcaro {
+  margin-top: 15px; }
 
 .navigation-instructions {
   background-color: rgba(211, 255, 107, 0.5);
