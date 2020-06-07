@@ -17,7 +17,7 @@ div #FeaturedButton {
 
 .body {
   z-index: 0;
-  padding: 50px 0px 0px 0px; }
+  padding: 0px 0px 0px 0px; }
 
 .breadcrumb {
   margin-top: 10px; }
@@ -67,3 +67,7 @@ p {
 
 a button {
   background-color: #e8a005 !important; }
+
+.column {
+  float: left;
+  width: 50%; }
