@@ -8,6 +8,7 @@ $head-text-yellow: #fac907;
 $carousel-item-height: 450px;
 $carousel-item-transition: 500px;
 $impo-button: #e8a005;
+$card-content-color: #d3ff6b;
 
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
@@ -104,4 +105,30 @@ a button{
 .column{
     float: left;
     width: 50%;
+}
+
+.card{
+    padding-bottom: 0px;
+    background-color: $card-content-color;
+}
+
+.scroll{
+    max-height: 252px;
+    overflow-y: auto;
+}
+
+.gametitle{
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.gametitle h3{
+    color: $background-red;
+    text-align: center;
+}
+
+.game-section{
+    padding-bottom: 10px;
+    border-bottom: 5px solid whitesmoke;
 }

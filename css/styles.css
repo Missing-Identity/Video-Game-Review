@@ -71,3 +71,24 @@ a button {
 .column {
   float: left;
   width: 50%; }
+
+.card {
+  padding-bottom: 0px;
+  background-color: #d3ff6b; }
+
+.scroll {
+  max-height: 252px;
+  overflow-y: auto; }
+
+.gametitle {
+  background-color: whitesmoke;
+  border-radius: 10px;
+  margin-top: 10px; }
+
+.gametitle h3 {
+  color: #ff1c03;
+  text-align: center; }
+
+.game-section {
+  padding-bottom: 10px;
+  border-bottom: 5px solid whitesmoke; }
