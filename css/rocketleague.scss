@@ -17,7 +17,7 @@ $card-content-color: #d3ff6b;
 
 .jumbotron{
     @include no-margin(70px, 30px);
-    background-image: url("img/Rocket-League-Car.jpg");
+    background-image: url("/img/Rocket-League-Car.jpg");
     background-size: cover;
     color: $head-text-yellow;
 }
