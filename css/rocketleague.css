@@ -88,3 +88,12 @@ iframe {
     margin-right: 240px; }
   .carousel-indicators {
     margin-right: 470px; } }
+
+.Verdict {
+  text-align: center;
+  background-color: rgba(4, 18, 40, 0.7);
+  border-radius: 25px;
+  border: 1px solid #e8a005;
+  color: #f5d400;
+  margin-top: 20px;
+  margin-bottom: 10px; }
