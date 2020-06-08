@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/rocketleague.css">
+        <style type="text/css">
+            body { background-image: url("img/Rocket-League-Boost.png"); background-size: cover; background-repeat: no-repeat !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+        </style>
+    </head>
+   <body>
+
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"><!-- data-target sets up a target for the button -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto" href="#"><img src="img/ign-logo.jpeg" height="31" width="41"></a><!-- the brand will display the brand name prominently on the navbar. # returns to index page-->
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto"><!-- mr-auto is used to specify the right margin(means content will be pushed as left as possible)-->
+                        <li class="nav-item hometab"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span>Home</a></li><!-- nav-items allows the list content to be displayed as links horizonatally in the nav-bar-->
+                        <li class="nav-item abouttab"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span>About</a></li><!-- the active class explicitly identifies one link as active link. Here on the Home page, Home is activated.-->
+                        <li class="nav-item gamestab active"><a class="nav-link" href="games.html"><span class="fa fa-gamepad fa-lg"></span>Games</a></li>
+                        <li class="nav-item consolestab"><a class="nav-link" href="#"><span class="fa fa-puzzle-piece fa-lg"></span>Consoles</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="jumbotron"> 
+
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-12 col-sm-6 align-self-center mt-5">
+                        <h1>Rocket League</h1>
+                        <p>Adrenaline pumping game of football with a fun twist!</p>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <ol class="col-12 breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item"><a href="games.html">Games</a></li>
+                    <li class="breadcrumb-item active">Rocket-League</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-md-5 Rocket-League-Content">
+                    <h3>Gameplay</h3>
+                    <p class="hasmedia">Rocket League is truly a thrilling game to play with exciting gameplay in which you are bound to have fun regardless of whether you can play well or no.<br>
+                    In fact the game play is so fun that just watching others play gives you tons of enjoyment, a mix of fast paced gameplay and an adrenaline pumping soundtrack makes for a combination that will simply not let you take your eyes off the screen until the match is over.</p>
+
+                    <!-- <video width="565" height="340" controls>
+                        <source src="https://youtu.be/mcyBKlk-IgE" type="video/mp4">
+                    </video> -->
+
+                    <iframe src="https://www.youtube.com/embed/mcyBKlk-IgE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+</html>
