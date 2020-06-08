@@ -29,40 +29,62 @@ p {
   margin-top: 15px; }
 
 .breadcrumb {
-  background-color: #0040c9; }
+  background-color: #afe6f6; }
 
 .breadcrumb a {
-  color: #f5d400; }
+  color: #041228; }
 
 .breadcrumb .breadcrumb-item {
   color: #e8a005; }
 
 .Rocket-League-Content {
-  background-color: rgba(3, 177, 252, 0.8);
+  background-color: rgba(4, 18, 40, 0.7);
   margin-left: 10px;
   margin-right: 10px;
+  margin-bottom: 10px;
   border-radius: 25px;
   border: 1px solid #e8a005; }
 
 .Rocket-League-Content h3 {
-  border-bottom: 3px solid gray;
+  border-bottom: 3px solid #fefbfa;
   color: #f5d400;
   padding-bottom: 10px;
   padding-top: 10px;
   text-align: center; }
 
 .Rocket-League-Content p {
-  color: white; }
+  color: #9eceed; }
 
 iframe {
   border-radius: 20px;
-  width: 565px;
-  height: 315px; }
+  width: 687px;
+  height: 315px;
+  margin-bottom: 10px; }
 
 .hasmedia {
-  border-bottom: 2px solid whitesmoke; }
+  border-bottom: 2px solid #fefbfa; }
 
 @media only screen and (max-width: 468px) {
   iframe {
     width: 360px;
     height: 220px; } }
+
+.imggallery {
+  text-align: center;
+  background-color: rgba(4, 18, 40, 0.7);
+  border-radius: 25px;
+  border: 1px solid #e8a005;
+  color: #f5d400; }
+
+.gameimgcaro {
+  margin-top: 20px;
+  width: 100%; }
+
+@media only screen and (min-width: 768px) {
+  .gameimgcaro {
+    margin-left: 150px;
+    width: 100%; }
+  .carousel-control-next {
+    margin-right: 240px; }
+  .carousel-indicators {
+    margin-right: 470px; } }
