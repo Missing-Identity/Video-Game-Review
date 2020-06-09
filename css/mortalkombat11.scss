@@ -7,7 +7,7 @@ $background-darkorange: rgb(214, 143, 0);
 $carousel-item-height: 500px;
 $carousel-item-transition: 500px;
 $head-text-light-orange: #e8a005;
-$card-content-color: #d3ff6b; //Trying to change background colour
+$card-content-color: #d3ff6b; //Trying to change background colour but failing.
 
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
