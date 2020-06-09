@@ -2,9 +2,9 @@ $lt-gray: #ddd;
 $background-light: #9575CD;
 $background-pale: #D1C4E9;
 $background-dark: rgba(4,18,40, 0.7);
-$background-darkblue: #0040c9;
-$head-text-yellow: #f5d400;
-$background-black: black;
+$background-bright-yellow: rgb(252, 244, 3);
+$head-text-brown: rgb(84, 57, 2);
+$background-darkorange: rgb(214, 143, 0);
 $carousel-item-height: 500px;
 $carousel-item-transition: 500px;
 $head-text-light-orange: #e8a005;
@@ -19,11 +19,16 @@ $card-content-color: #d3ff6b;
     @include no-margin(70px, 30px);
     // background-image: url("../img/Rocket-League-Car.jpg");
     // background-size: cover;
-    color: $head-text-yellow;
+    color: $head-text-brown;
+}
+
+.MK11-head-text{
+    background: rgba(247,187,50, 0.6);
+    border-radius: 25px;
 }
 
 .navbar-dark{
-    background-image: linear-gradient($background-darkblue, $background-black);
+    background-image: linear-gradient($background-bright-yellow, $background-darkorange);
     border-bottom: 1px inset $lt-gray;
 }
 
@@ -62,15 +67,15 @@ p{
 }
 
 .breadcrumb{
-    background-color: rgb(175,230,246);
+    background-color: $head-text-light-orange;
 }
 
 .breadcrumb a{
-    color: rgb(4,18,40);
+    color: white;
 }
 
 .breadcrumb .breadcrumb-item{
-    color: $head-text-light-orange;
+    color: $head-text-brown;
 }
 
 .Mortal-Kombat-Content{
@@ -84,7 +89,7 @@ p{
 
 .Mortal-Kombat-Content h3{
     border-bottom: 3px solid rgb(254,251,250);
-    color: $head-text-yellow;
+    color: $head-text-brown;
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
@@ -117,7 +122,7 @@ iframe{
     background-color: $background-dark;
     border-radius: 25px;
     border: 1px solid $head-text-light-orange;
-    color: $head-text-yellow;
+    color: $head-text-brown;
 }
 
 .gameimgcaro{
@@ -145,7 +150,7 @@ iframe{
     background-color: $background-dark;
     border-radius: 25px;
     border: 1px solid $head-text-light-orange;
-    color: $head-text-yellow;
+    color: $head-text-brown;
     margin-top: 20px;
     margin-bottom: 10px;
 }
