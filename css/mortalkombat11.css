@@ -14,8 +14,8 @@
 .navbar .nav-link {
   color: #543902 !important; }
 
-.navbar .nav-link:active {
-  color: #d68f00; }
+.navbar .nav-link:hover {
+  color: #d68f00 !important; }
 
 .body {
   z-index: 0;

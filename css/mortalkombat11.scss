@@ -36,8 +36,8 @@ $card-content-color: #d3ff6b;
     color: $head-text-brown !important;
 }
 
-.navbar .nav-link:active{
-    color: $background-darkorange;
+.navbar .nav-link:hover{
+    color: $background-darkorange !important;
 }
 
 .body{
