@@ -11,6 +11,12 @@
   background-image: linear-gradient(#fcf403, #d68f00);
   border-bottom: 1px inset #ddd; }
 
+.navbar .nav-link {
+  color: #543902 !important; }
+
+.navbar .nav-link:active {
+  color: #d68f00; }
+
 .body {
   z-index: 0;
   padding: 0px 0px 0px 0px; }
@@ -36,7 +42,7 @@ p {
   background-color: #e8a005; }
 
 .breadcrumb a {
-  color: white; }
+  color: #ddd; }
 
 .breadcrumb .breadcrumb-item {
   color: #543902; }

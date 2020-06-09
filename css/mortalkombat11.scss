@@ -32,6 +32,14 @@ $card-content-color: #d3ff6b;
     border-bottom: 1px inset $lt-gray;
 }
 
+.navbar .nav-link{
+    color: $head-text-brown !important;
+}
+
+.navbar .nav-link:active{
+    color: $background-darkorange;
+}
+
 .body{
     z-index: 0;
     padding: 0px 0px 0px 0px;
