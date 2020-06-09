@@ -1,0 +1,151 @@
+$lt-gray: #ddd;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+$background-dark: rgba(4,18,40, 0.7);
+$background-darkblue: #0040c9;
+$head-text-yellow: #f5d400;
+$background-black: black;
+$carousel-item-height: 500px;
+$carousel-item-transition: 500px;
+$head-text-light-orange: #e8a005;
+$card-content-color: #d3ff6b;
+
+@mixin no-margin($pad-up-down, $pad-left-right){
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+.jumbotron{
+    @include no-margin(70px, 30px);
+    // background-image: url("../img/Rocket-League-Car.jpg");
+    // background-size: cover;
+    color: $head-text-yellow;
+}
+
+.navbar-dark{
+    background-image: linear-gradient($background-darkblue, $background-black);
+    border-bottom: 1px inset $lt-gray;
+}
+
+.body{
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+}
+
+.breadcrumb{
+    margin-top: 10px;
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+.carousel{
+    // background: rgba(211, 255, 107 , 0.7);
+    .carousel-item{
+        // height: $carousel-item-height;
+            img{
+                position: relative;
+                max-height: 600px;
+                // max-width: 1300px;
+            }
+    }  
+}
+
+.indexcaro{
+    margin-top: 15px;
+}
+
+.breadcrumb{
+    background-color: rgb(175,230,246);
+}
+
+.breadcrumb a{
+    color: rgb(4,18,40);
+}
+
+.breadcrumb .breadcrumb-item{
+    color: $head-text-light-orange;
+}
+
+.Mortal-Kombat-Content{
+    background-color: $background-dark;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border-radius: 25px;
+    border: 1px solid $head-text-light-orange;
+}
+
+.Mortal-Kombat-Content h3{
+    border-bottom: 3px solid rgb(254,251,250);
+    color: $head-text-yellow;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.Mortal-Kombat-Content p{
+    color: rgb(158,206,237);
+}
+
+iframe{
+    border-radius: 20px;
+    width: 687px;
+    height: 315px;
+    margin-bottom: 10px;
+}
+
+.hasmedia{
+    border-bottom: 2px solid rgb(254,251,250);
+}
+
+@media only screen and (max-width: 468px) {
+    iframe{
+        width: 360px;
+        height: 220px;        
+    }
+}
+
+.imggallery{
+    text-align: center;
+    background-color: $background-dark;
+    border-radius: 25px;
+    border: 1px solid $head-text-light-orange;
+    color: $head-text-yellow;
+}
+
+.gameimgcaro{
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px){
+    .gameimgcaro{
+        margin-left: 150px;
+        width: 100%;
+    }
+
+    .carousel-control-next{
+        margin-right: 240px;
+    }
+
+    .carousel-indicators{
+        margin-right: 470px;
+    }
+}
+
+.Verdict{
+    text-align: center;
+    background-color: $background-dark;
+    border-radius: 25px;
+    border: 1px solid $head-text-light-orange;
+    color: $head-text-yellow;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
