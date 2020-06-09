@@ -1,13 +1,12 @@
 $lt-gray: #ddd;
-$background-light: #9575CD;
-$background-dark: rgba(4,18,40, 0.7);
+$tile-head-colour: rgb(210,191,150);
 $background-bright-yellow: rgb(252, 244, 3);
 $head-text-brown: rgb(84, 57, 2);
 $background-darkorange: rgb(214, 143, 0);
 $carousel-item-height: 500px;
 $carousel-item-transition: 500px;
 $head-text-light-orange: #e8a005;
-$card-content-color: #d3ff6b; //Trying to change background colour but failing.
+$card-content-color: #d3ff6b;
 
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
@@ -86,7 +85,7 @@ p{
 }
 
 .Mortal-Kombat-Content{
-    background-color: $background-dark;
+    background: linear-gradient(rgb(50,9,8),rgb(19,19,19));
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -96,14 +95,14 @@ p{
 
 .Mortal-Kombat-Content h3{
     border-bottom: 3px solid rgb(254,251,250);
-    color: $head-text-brown;
+    color: $tile-head-colour;
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
 }
 
 .Mortal-Kombat-Content p{
-    color: rgb(158,206,237);
+    color: grey;
 }
 
 iframe{
@@ -126,10 +125,10 @@ iframe{
 
 .imggallery{
     text-align: center;
-    background-color: $background-dark;
+    background: linear-gradient(rgb(50,9,8),rgb(19,19,19));
     border-radius: 25px;
     border: 1px solid $head-text-light-orange;
-    color: $head-text-brown;
+    color: $tile-head-colour;
 }
 
 .gameimgcaro{
@@ -154,10 +153,10 @@ iframe{
 
 .Verdict{
     text-align: center;
-    background-color: $background-dark;
+    background: linear-gradient(rgb(50,9,8),rgb(19,19,19));
     border-radius: 25px;
     border: 1px solid $head-text-light-orange;
-    color: $head-text-brown;
+    color: $tile-head-colour;
     margin-top: 20px;
     margin-bottom: 10px;
 }

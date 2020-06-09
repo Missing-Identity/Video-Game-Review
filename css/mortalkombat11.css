@@ -48,7 +48,7 @@ p {
   color: #543902; }
 
 .Mortal-Kombat-Content {
-  background-color: rgba(4, 18, 40, 0.7);
+  background: linear-gradient(#320908, #131313);
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 10px;
@@ -57,13 +57,13 @@ p {
 
 .Mortal-Kombat-Content h3 {
   border-bottom: 3px solid #fefbfa;
-  color: #543902;
+  color: #d2bf96;
   padding-bottom: 10px;
   padding-top: 10px;
   text-align: center; }
 
 .Mortal-Kombat-Content p {
-  color: #9eceed; }
+  color: grey; }
 
 iframe {
   border-radius: 20px;
@@ -81,10 +81,10 @@ iframe {
 
 .imggallery {
   text-align: center;
-  background-color: rgba(4, 18, 40, 0.7);
+  background: linear-gradient(#320908, #131313);
   border-radius: 25px;
   border: 1px solid #e8a005;
-  color: #543902; }
+  color: #d2bf96; }
 
 .gameimgcaro {
   margin-top: 20px;
@@ -101,9 +101,9 @@ iframe {
 
 .Verdict {
   text-align: center;
-  background-color: rgba(4, 18, 40, 0.7);
+  background: linear-gradient(#320908, #131313);
   border-radius: 25px;
   border: 1px solid #e8a005;
-  color: #543902;
+  color: #d2bf96;
   margin-top: 20px;
   margin-bottom: 10px; }
