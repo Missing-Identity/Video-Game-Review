@@ -23,7 +23,8 @@ p {
 
 .carousel .carousel-item img {
   position: relative;
-  max-height: 600px; }
+  max-height: 600px;
+  border-radius: 25px; }
 
 .indexcaro {
   margin-top: 15px; }
