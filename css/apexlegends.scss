@@ -1,11 +1,11 @@
 $lt-gray: #ddd;
 $tile-head-colour: rgb(210,191,150);
-$background-bright-yellow: rgb(252, 244, 3);
-$head-text-brown: rgb(84, 57, 2);
-$background-darkorange: rgb(214, 143, 0);
+$background-apex-red: rgb(106,33,40);
+$head-text-white: white;
+$background-apex-white: rgb(251,246,241);
 $carousel-item-height: 500px;
 $carousel-item-transition: 500px;
-$head-text-light-orange: #e8a005;
+$head-text-crimson: rgb(71,23,27);
 $card-content-color: #d3ff6b;
 
 @mixin no-margin($pad-up-down, $pad-left-right){
@@ -17,25 +17,25 @@ $card-content-color: #d3ff6b;
     @include no-margin(70px, 30px);
     // background-image: url("../img/Rocket-League-Car.jpg");
     // background-size: cover;
-    color: $head-text-brown;
+    color: $head-text-white;
 }
 
 .MK11-head-text{
-    background: rgba(247,187,50, 0.6);
+    background: rgba(106,33,40,0.6);
     border-radius: 25px;
 }
 
 .navbar-dark{
-    background-image: linear-gradient($background-bright-yellow, $background-darkorange);
+    background-image: linear-gradient($background-apex-white, $background-apex-red);
     border-bottom: 1px inset $lt-gray;
 }
 
 .navbar .nav-link{
-    color: $head-text-brown !important;
+    color: $head-text-white !important;
 }
 
 .navbar .nav-link:hover{
-    color: $background-darkorange !important;
+    color: $background-apex-white !important;
 }
 
 .body{
@@ -73,7 +73,7 @@ p{
 }
 
 .breadcrumb{
-    background-color: $head-text-light-orange;
+    background-color: rgb(249,244,239);
 }
 
 .breadcrumb a{
@@ -81,7 +81,7 @@ p{
 }
 
 .breadcrumb .breadcrumb-item{
-    color: $head-text-brown;
+    color: $head-text-white;
 }
 
 .Mortal-Kombat-Content{
@@ -90,7 +90,7 @@ p{
     margin-right: 10px;
     margin-bottom: 10px;
     border-radius: 25px;
-    border: 1px solid $head-text-light-orange;
+    border: 1px solid $head-text-crimson;
 }
 
 .Mortal-Kombat-Content h3{
@@ -127,7 +127,7 @@ iframe{
     text-align: center;
     background: linear-gradient(rgb(50,9,8),rgb(19,19,19));
     border-radius: 25px;
-    border: 1px solid $head-text-light-orange;
+    border: 1px solid $head-text-crimson;
     color: $tile-head-colour;
 }
 
@@ -155,7 +155,7 @@ iframe{
     text-align: center;
     background: linear-gradient(rgb(50,9,8),rgb(19,19,19));
     border-radius: 25px;
-    border: 1px solid $head-text-light-orange;
+    border: 1px solid $head-text-crimson;
     color: $tile-head-colour;
     margin-top: 20px;
     margin-bottom: 10px;

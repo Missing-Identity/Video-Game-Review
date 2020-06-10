@@ -1,21 +1,21 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  color: #543902; }
+  color: white; }
 
 .MK11-head-text {
-  background: rgba(247, 187, 50, 0.6);
+  background: rgba(106, 33, 40, 0.6);
   border-radius: 25px; }
 
 .navbar-dark {
-  background-image: linear-gradient(#fcf403, #d68f00);
+  background-image: linear-gradient(#fbf6f1, #6a2128);
   border-bottom: 1px inset #ddd; }
 
 .navbar .nav-link {
-  color: #543902 !important; }
+  color: white !important; }
 
 .navbar .nav-link:hover {
-  color: #d68f00 !important; }
+  color: #fbf6f1 !important; }
 
 .body {
   z-index: 0;
@@ -39,13 +39,13 @@ p {
   margin-top: 15px; }
 
 .breadcrumb {
-  background-color: #e8a005; }
+  background-color: #f9f4ef; }
 
 .breadcrumb a {
   color: #ddd; }
 
 .breadcrumb .breadcrumb-item {
-  color: #543902; }
+  color: white; }
 
 .Mortal-Kombat-Content {
   background: linear-gradient(#320908, #131313);
@@ -53,7 +53,7 @@ p {
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
-  border: 1px solid #e8a005; }
+  border: 1px solid #47171b; }
 
 .Mortal-Kombat-Content h3 {
   border-bottom: 3px solid #fefbfa;
@@ -83,7 +83,7 @@ iframe {
   text-align: center;
   background: linear-gradient(#320908, #131313);
   border-radius: 25px;
-  border: 1px solid #e8a005;
+  border: 1px solid #47171b;
   color: #d2bf96; }
 
 .gameimgcaro {
@@ -103,7 +103,7 @@ iframe {
   text-align: center;
   background: linear-gradient(#320908, #131313);
   border-radius: 25px;
-  border: 1px solid #e8a005;
+  border: 1px solid #47171b;
   color: #d2bf96;
   margin-top: 20px;
   margin-bottom: 10px; }
