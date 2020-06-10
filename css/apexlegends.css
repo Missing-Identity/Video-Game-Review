@@ -3,7 +3,7 @@
   padding: 70px 30px;
   color: white; }
 
-.MK11-head-text {
+.Apex-Legends-head-text {
   background: rgba(106, 33, 40, 0.6);
   border-radius: 25px; }
 
@@ -47,7 +47,7 @@ p {
 .breadcrumb .breadcrumb-item {
   color: #6a2128; }
 
-.Mortal-Kombat-Content {
+.Apex-Legends-Content {
   background: rgba(76, 71, 75, 0.6);
   margin-left: 10px;
   margin-right: 10px;
@@ -55,14 +55,14 @@ p {
   border-radius: 25px;
   border: 1px solid #47171b; }
 
-.Mortal-Kombat-Content h3 {
+.Apex-Legends-Content h3 {
   border-bottom: 3px solid #fbfbfd;
   color: #fbfbfd;
   padding-bottom: 10px;
   padding-top: 10px;
   text-align: center; }
 
-.Mortal-Kombat-Content p {
+.Apex-Legends-Content p {
   color: #b2b4c2; }
 
 iframe {
@@ -81,7 +81,7 @@ iframe {
 
 .imggallery {
   text-align: center;
-  background: linear-gradient(#320908, #131313);
+  background: rgba(76, 71, 75, 0.6);
   border-radius: 25px;
   border: 1px solid #47171b;
   color: #fbfbfd; }
@@ -101,7 +101,7 @@ iframe {
 
 .Verdict {
   text-align: center;
-  background: linear-gradient(#320908, #131313);
+  background: rgba(76, 71, 75, 0.6);
   border-radius: 25px;
   border: 1px solid #47171b;
   color: #fbfbfd;
