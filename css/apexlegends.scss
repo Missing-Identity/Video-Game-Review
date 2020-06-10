@@ -1,5 +1,5 @@
 $lt-gray: #ddd;
-$tile-head-colour: rgb(210,191,150);
+$tile-head-colour: rgb(251,251,253);
 $background-apex-red: rgb(106,33,40);
 $head-text-white: white;
 $background-apex-white: rgb(251,246,241);
@@ -77,15 +77,15 @@ p{
 }
 
 .breadcrumb a{
-    color: $lt-gray;
+    color: black;
 }
 
 .breadcrumb .breadcrumb-item{
-    color: $head-text-white;
+    color: $background-apex-red;
 }
 
 .Mortal-Kombat-Content{
-    background: linear-gradient(rgb(50,9,8),rgb(19,19,19));
+    background: rgba(76,71,75,0.6);
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 10px;
@@ -94,15 +94,15 @@ p{
 }
 
 .Mortal-Kombat-Content h3{
-    border-bottom: 3px solid rgb(254,251,250);
-    color: $tile-head-colour;
+    border-bottom: 3px solid $tile-head-colour;
+    color: rgb(251,251,253);
     padding-bottom: 10px;
     padding-top: 10px;
     text-align: center;
 }
 
 .Mortal-Kombat-Content p{
-    color: grey;
+    color: rgb(178,180,194);
 }
 
 iframe{
