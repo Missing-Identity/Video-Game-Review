@@ -161,3 +161,27 @@ iframe{
     margin-top: 20px;
     margin-bottom: 10px;
 }
+
+.card{
+    background: rgba(76,71,75,0.6);
+    border: 1px solid $head-text-crimson;
+    border-radius: 25px;
+    color: rgb(178,180,194);
+}
+
+.card-header{
+    height: 90px;
+}
+
+.card-body{
+    height: 150px;
+}
+
+.accordioncolour{
+    color: rgb(251,251,253) !important;
+    text-decoration: none !important;
+}
+
+.accordioncolour:hover{
+    color: blue !important;
+}
