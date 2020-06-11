@@ -104,3 +104,10 @@ iframe {
   border: 1px solid #e8a005;
   border-radius: 25px;
   color: #9eceed; }
+
+.accordioncolour {
+  color: #f5d400 !important;
+  text-decoration: none !important; }
+
+.accordioncolour:hover {
+  color: blue !important; }

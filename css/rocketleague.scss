@@ -158,4 +158,11 @@ iframe{
     color: $card-content-color;
 }
 
+.accordioncolour{
+    color: $head-text-yellow !important;
+    text-decoration: none !important;
+}
 
+.accordioncolour:hover{
+    color: blue !important;
+}
