@@ -115,13 +115,9 @@ a button{
 
 .card{
     padding-bottom: 0px;
-    background-color: rgba(113, 204, 8, 0.9);
+    background-color: rgba(113, 204, 8, 0.7);
     border-radius: 10px;
-}
-
-.scroll{
-    max-height: 252px;
-    overflow-y: auto;
+    height: 270px;
 }
 
 .gametitle{
@@ -143,6 +139,6 @@ a button{
 
 .game-section img{
     width: 100%;
-    height: 303px;
+    height: 320px;
     border-radius: 25px;
 }
