@@ -108,3 +108,16 @@ iframe {
   color: #d2bf96;
   margin-top: 20px;
   margin-bottom: 10px; }
+
+.card {
+  background: linear-gradient(#320908, #131313);
+  border: 1px solid #d2bf96;
+  border-radius: 25px;
+  color: grey; }
+
+.accordioncolour {
+  color: #fcf403 !important;
+  text-decoration: none !important; }
+
+.accordioncolour:hover {
+  color: blue !important; }

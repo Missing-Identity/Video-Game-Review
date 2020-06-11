@@ -162,3 +162,18 @@ iframe{
     margin-bottom: 10px;
 }
 
+.card{
+    background: linear-gradient(rgb(50,9,8),rgb(19,19,19));
+    border: 1px solid $tile-head-colour;
+    border-radius: 25px;
+    color: grey;
+}
+
+.accordioncolour{
+    color: $background-bright-yellow !important;
+    text-decoration: none !important;
+}
+
+.accordioncolour:hover{
+    color: blue !important;
+}
