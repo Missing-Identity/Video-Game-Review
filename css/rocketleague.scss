@@ -158,6 +158,14 @@ iframe{
     color: $card-content-color;
 }
 
+.card-header{
+    height: 90px;
+}
+
+.card-body{
+    height: 150px;
+}
+
 .accordioncolour{
     color: $head-text-yellow !important;
     text-decoration: none !important;

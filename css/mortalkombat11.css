@@ -115,6 +115,12 @@ iframe {
   border-radius: 25px;
   color: grey; }
 
+.card-header {
+  height: 90px; }
+
+.card-body {
+  height: 150px; }
+
 .accordioncolour {
   color: #fcf403 !important;
   text-decoration: none !important; }
