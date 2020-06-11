@@ -98,3 +98,9 @@ iframe {
   color: #f5d400;
   margin-top: 20px;
   margin-bottom: 10px; }
+
+.card {
+  background: rgba(4, 18, 40, 0.7);
+  border: 1px solid #e8a005;
+  border-radius: 25px;
+  color: #9eceed; }
