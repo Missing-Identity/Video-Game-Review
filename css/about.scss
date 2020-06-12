@@ -1,0 +1,144 @@
+$lt-gray: #ddd;
+$background-light: #9575CD;
+$background-pale: #D1C4E9;
+$background-dark: #512DA8;
+$background-red: #ff1c03;
+$head-text-green: #27db87;
+$head-text-yellow: #fac907;
+$carousel-item-height: 500px;
+$carousel-item-transition: 500px;
+$impo-button: #e8a005;
+$card-content-color: #d3ff6b;
+
+@mixin no-margin($pad-up-down, $pad-left-right){
+    margin: 0px auto;
+    padding: $pad-up-down $pad-left-right;
+}
+
+.jumbotron{
+    @include no-margin(70px, 30px);
+    background-image: linear-gradient($head-text-yellow, $background-red);
+    color: #fffad1;
+}
+
+.navbar-dark{
+    background-image: linear-gradient($background-red, $head-text-yellow);
+    border-bottom: 1px inset $lt-gray;
+}
+
+div #FeaturedButton{
+    float: right;
+}
+
+@media only screen and (max-width: 768px) {
+    div #FeaturedButton{
+        float: none;
+    }
+}
+
+.body{
+    z-index: 0;
+    padding: 0px 0px 0px 0px;
+}
+
+.breadcrumb{
+    margin-top: 10px;
+}
+
+.maincontent{
+    background-color: rgba(211, 255, 107, 0.5);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#FeaturedButton{
+    font-size: larger;
+    width: 200px;
+    height: 70px;
+    transition: width 0.5s, height 0.5s;
+}
+
+#FeaturedButton:hover{
+    width: 220px;
+    height: 80px;
+}
+
+h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+p{
+    padding-bottom: 10px;
+}
+
+.carousel{
+    // background: rgba(211, 255, 107 , 0.7);
+    .carousel-item{
+        // height: $carousel-item-height;
+            img{
+                position: relative;
+                max-height: 600px;
+                border-radius: 25px;
+                // max-width: 1300px;
+            }
+    }  
+}
+
+.indexcaro{
+    margin-top: 15px;
+}
+
+.navigation-instructions{
+    background-color: rgba(211, 255, 107, 0.5);
+    border-radius: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 20px;
+}
+
+.navigation-instructions .row h2{
+    color: $background-red;
+}
+
+a button{
+    background-color: $impo-button !important;
+}
+
+.column{
+    float: left;
+    width: 50%;
+}
+
+.card{
+    padding-bottom: 0px;
+    background-color: rgba(113, 204, 8, 0.7);
+    border-radius: 10px;
+    height: 270px;
+}
+
+.gametitle{
+    background-color: $background-red;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.gametitle h3{
+    color: white;
+    text-align: center;
+}
+
+.game-section{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 5px solid whitesmoke;
+}
+
+.game-section img{
+    width: 100%;
+    height: 320px;
+    border-radius: 25px;
+}
