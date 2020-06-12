@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/consoles.css">
+        <style type="text/css">
+            body { background-image: url("img/Background-static.jpg"); background-size: cover; background-repeat: no-repeat !important; } /* Adding !important forces the browser to overwrite the default style applied by Bootstrap */
+        </style>
+    </head>
+   <body>
+
+        <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar"><!-- data-target sets up a target for the button -->
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand mr-auto" href="#"><img src="img/ign-logo.jpeg" height="31" width="41"></a><!-- the brand will display the brand name prominently on the navbar. # returns to index page-->
+                <div class="collapse navbar-collapse" id="Navbar">
+                    <ul class="navbar-nav mr-auto"><!-- mr-auto is used to specify the right margin(means content will be pushed as left as possible)-->
+                        <li class="nav-item hometab"><a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span>Home</a></li><!-- nav-items allows the list content to be displayed as links horizonatally in the nav-bar-->
+                        <li class="nav-item abouttab"><a class="nav-link" href="#"><span class="fa fa-info fa-lg"></span>About</a></li><!-- the active class explicitly identifies one link as active link. Here on the Home page, Home is activated.-->
+                        <li class="nav-item gamestab active"><a class="nav-link" href="#"><span class="fa fa-gamepad fa-lg"></span>Games</a></li>
+                        <li class="nav-item consolestab"><a class="nav-link" href="#"><span class="fa fa-puzzle-piece fa-lg"></span>Consoles</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <header class="jumbotron">
+
+            <div class="container">
+                <div class="row row-header">
+                    <div class="col-12 col-sm-6 align-self-center mt-5">
+                        <h1>Games</h1>
+                        <p>Welcome to the Games section! Feel free to browse through all the games and read any review you want!</p>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+
+        <div class="container">
+            <div class="row">
+                <ol class="col-12 breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item active">Games</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="container gameslist">
+            <div class="row RocketLeague game-section">
+                <div class="col-xs-12 col-md-6">
+                    <a href="Rocket-League-Review.html"><img src="img/Rocket-League-Logo.png" class="img-fluid"></a>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="gametitle">
+                        <h3>Rocket League</h3>
+                    </div>
+                    <div class="float-right card w-150">
+                        <h3 class="card-header bg-warning text-white">Quick Review</h3>
+                        <div class="card-body">
+                            <dl class="row"><!-- dl is description list -->
+                                <dt class="col-7">Gameplay</dt><!-- dt id description title -->
+                                <dd class="col-5">10/10</dd><!-- This is the main description -->
+                                <dt class="col-7">Graphics</dt>
+                                <dd class="col-5">8/10</dd>
+                                <dt class="col-7">Controls</dt>
+                                <dd class="col-5">6/10</dd>
+                                <dt class="col-7">Audio and Music</dt>
+                                <dd class="col-5">9/10</dd>
+                                <dt class="col-7">Verdict</dt>
+                                <dd class="col-5">8.5/10</dd>
+                                <dt class="col-7"><a href="Rocket-League-Review.html">Go to full review --></a></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row Mortal-Kombat-11 game-section">
+                <div class="col-xs-12 col-md-6">
+                    <a href="Mortal-Kombat-11.html"><img src="img/MortalKombat-Title.jpg" class="img-fluid"></a>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="gametitle">
+                        <h3>Mortal Kombat</h3>
+                    </div>
+                    <div class="float-right card w-150">
+                        <h3 class="card-header bg-warning text-white">Quick Review</h3>
+                        <div class="card-body">
+                            <dl class="row"><!-- dl is description list -->
+                                <dt class="col-7">Gameplay</dt><!-- dt id description title -->
+                                <dd class="col-5">10/10</dd><!-- This is the main description -->
+                                <dt class="col-7">Graphics</dt>
+                                <dd class="col-5">8/10</dd>
+                                <dt class="col-7">Controls</dt>
+                                <dd class="col-5">7/10</dd>
+                                <dt class="col-7">Audio and Music</dt>
+                                <dd class="col-5">6/10</dd>
+                                <dt class="col-7">Verdict</dt>
+                                <dd class="col-5">8.5/10</dd>
+                                <dt class="col-7"><a href="Mortal-Kombat-11.html">Go to full review --></a></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row Apex-Legends game-section">
+                <div class="col-xs-12 col-md-6">
+                    <a href="Apex-Legends.html"><img src="img/Apex-Legends.jpg" class="img-fluid"></a>
+                </div>
+                <div class="col-xs-12 col-md-6">
+                    <div class="gametitle">
+                        <h3>Apex Legends</h3>
+                    </div>
+                    <div class="float-right card w-150">
+                        <h3 class="card-header bg-warning text-white">Quick Review</h3>
+                        <div class="card-body">
+                            <dl class="row"><!-- dl is description list -->
+                                <dt class="col-7">Gameplay</dt><!-- dt id description title -->
+                                <dd class="col-5">8/10</dd><!-- This is the main description -->
+                                <dt class="col-7">Graphics</dt>
+                                <dd class="col-5">6/10</dd>
+                                <dt class="col-7">Controls</dt>
+                                <dd class="col-5">9/10</dd>
+                                <dt class="col-7">Audio and Music</dt>
+                                <dd class="col-5">7.5/10</dd>
+                                <dt class="col-7">Verdict</dt>
+                                <dd class="col-5">7.5/10</dd>
+                                <dt class="col-7"><a href="Apex-Legends.html">Go to full review --></a></dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    </body>
+
+</html>
