@@ -20,11 +20,13 @@ $card-content-color: rgb(158,206,237);
     // background-image: url("../img/Rocket-League-Car.jpg");
     // background-size: cover;
     color: $head-text-yellow;
+    font-family: 'Muli', sans-serif;
 }
 
 .navbar-dark{
     background-image: linear-gradient($background-darkblue, $background-black);
     border-bottom: 1px inset $lt-gray;
+    font-family: 'Muli', sans-serif;
 }
 
 .body{
@@ -34,6 +36,7 @@ $card-content-color: rgb(158,206,237);
 
 .breadcrumb{
     margin-top: 10px;
+    font-family: 'Muli', sans-serif;
 }
 
 h2{
@@ -64,6 +67,7 @@ p{
 
 .breadcrumb{
     background-color: rgb(175,230,246);
+    font-family: 'Muli', sans-serif;
 }
 
 .breadcrumb a{
@@ -81,6 +85,7 @@ p{
     margin-bottom: 10px;
     border-radius: 25px;
     border: 1px solid $head-text-light-orange;
+    font-family: 'Muli', sans-serif;
 }
 
 .Rocket-League-Content h3{
@@ -119,6 +124,7 @@ iframe{
     border-radius: 25px;
     border: 1px solid $head-text-light-orange;
     color: $head-text-yellow;
+    font-family: 'Muli', sans-serif;
 }
 
 .gameimgcaro{
@@ -149,6 +155,7 @@ iframe{
     color: $head-text-yellow;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: 'Muli', sans-serif;
 }
 
 .card{
@@ -156,6 +163,7 @@ iframe{
     border: 1px solid $head-text-light-orange;
     border-radius: 25px;
     color: $card-content-color;
+    font-family: 'Muli', sans-serif;
 }
 
 .card-header{
@@ -169,6 +177,7 @@ iframe{
 .accordioncolour{
     color: $head-text-yellow !important;
     text-decoration: none !important;
+    font-family: 'Muli', sans-serif;
 }
 
 .accordioncolour:hover{

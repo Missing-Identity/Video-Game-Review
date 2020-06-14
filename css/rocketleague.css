@@ -1,18 +1,21 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  color: #f5d400; }
+  color: #f5d400;
+  font-family: 'Muli', sans-serif; }
 
 .navbar-dark {
   background-image: linear-gradient(#0040c9, black);
-  border-bottom: 1px inset #ddd; }
+  border-bottom: 1px inset #ddd;
+  font-family: 'Muli', sans-serif; }
 
 .body {
   z-index: 0;
   padding: 0px 0px 0px 0px; }
 
 .breadcrumb {
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-family: 'Muli', sans-serif; }
 
 h2 {
   padding-top: 20px;
@@ -30,7 +33,8 @@ p {
   margin-top: 15px; }
 
 .breadcrumb {
-  background-color: #afe6f6; }
+  background-color: #afe6f6;
+  font-family: 'Muli', sans-serif; }
 
 .breadcrumb a {
   color: #041228; }
@@ -44,7 +48,8 @@ p {
   margin-right: 10px;
   margin-bottom: 10px;
   border-radius: 25px;
-  border: 1px solid #e8a005; }
+  border: 1px solid #e8a005;
+  font-family: 'Muli', sans-serif; }
 
 .Rocket-League-Content h3 {
   border-bottom: 3px solid #fefbfa;
@@ -75,7 +80,8 @@ iframe {
   background-color: rgba(4, 18, 40, 0.7);
   border-radius: 25px;
   border: 1px solid #e8a005;
-  color: #f5d400; }
+  color: #f5d400;
+  font-family: 'Muli', sans-serif; }
 
 .gameimgcaro {
   margin-top: 20px;
@@ -97,13 +103,15 @@ iframe {
   border: 1px solid #e8a005;
   color: #f5d400;
   margin-top: 20px;
-  margin-bottom: 10px; }
+  margin-bottom: 10px;
+  font-family: 'Muli', sans-serif; }
 
 .card {
   background: rgba(4, 18, 40, 0.7);
   border: 1px solid #e8a005;
   border-radius: 25px;
-  color: #9eceed; }
+  color: #9eceed;
+  font-family: 'Muli', sans-serif; }
 
 .card-header {
   height: 90px; }
@@ -113,7 +121,8 @@ iframe {
 
 .accordioncolour {
   color: #f5d400 !important;
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  font-family: 'Muli', sans-serif; }
 
 .accordioncolour:hover {
   color: blue !important; }
