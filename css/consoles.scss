@@ -117,13 +117,28 @@ a button{
     padding-bottom: 0px;
     background-color: rgba(113, 204, 8, 0.7);
     border-radius: 10px;
-    height: 270px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.Nintendo .card{
+    padding-bottom: 0px;
+    background-color: rgba(113, 204, 8, 0.7);
+    border-radius: 10px;
+    height: auto;
+    margin-top: 15px;
+}
+
+.Nintendo .consolestitle{
+    background-color: $background-red;
+    border-radius: 10px;
+    margin-top: 40px;
 }
 
 .consolestitle{
     background-color: $background-red;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .consolestitle h3{
