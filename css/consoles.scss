@@ -157,3 +157,21 @@ a button{
     height: 320px;
     border-radius: 25px;
 }
+
+.consolegame{
+    text-decoration: none !important;
+    color: white;
+}
+
+.consolegame:hover{
+    color: rgb(238,81,47);
+}
+
+.linkgame{
+    color: black !important;
+    text-decoration: none !important;
+}
+
+.linkgame:hover{
+    color: blue !important;
+}

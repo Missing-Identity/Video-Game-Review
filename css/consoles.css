@@ -109,3 +109,17 @@ a button {
   width: 100%;
   height: 320px;
   border-radius: 25px; }
+
+.consolegame {
+  text-decoration: none !important;
+  color: white; }
+
+.consolegame:hover {
+  color: #ee512f; }
+
+.linkgame {
+  color: black !important;
+  text-decoration: none !important; }
+
+.linkgame:hover {
+  color: blue !important; }
