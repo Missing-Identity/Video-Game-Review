@@ -6,7 +6,8 @@
 
 .navbar-dark {
   background-image: linear-gradient(#ff1c03, #fac907);
-  border-bottom: 1px inset #ddd; }
+  border-bottom: 1px inset #ddd;
+  font-family: 'Muli', sans-serif; }
 
 div #FeaturedButton {
   float: right; }
@@ -20,7 +21,8 @@ div #FeaturedButton {
   padding: 0px 0px 0px 0px; }
 
 .breadcrumb {
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-family: 'Muli', sans-serif; }
 
 .maincontent {
   background-color: rgba(211, 255, 107, 0.5);
@@ -41,10 +43,12 @@ div #FeaturedButton {
 
 h2 {
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-family: 'Muli', sans-serif; }
 
 p {
-  padding-bottom: 10px; }
+  padding-bottom: 10px;
+  font-family: 'Muli', sans-serif; }
 
 .carousel .carousel-item img {
   position: relative;
@@ -63,10 +67,12 @@ p {
   margin-top: 20px; }
 
 .navigation-instructions .row h2 {
-  color: #ff1c03; }
+  color: #ff1c03;
+  font-family: 'Muli', sans-serif; }
 
 a button {
-  background-color: #e8a005 !important; }
+  background-color: #e8a005 !important;
+  font-family: 'Muli', sans-serif; }
 
 .column {
   float: left;
@@ -76,7 +82,8 @@ a button {
   padding-bottom: 0px;
   background-color: rgba(113, 204, 8, 0.7);
   border-radius: 10px;
-  height: 270px; }
+  height: 270px;
+  font-family: 'Muli', sans-serif; }
 
 .gametitle {
   background-color: #ff1c03;
@@ -85,7 +92,8 @@ a button {
 
 .gametitle h3 {
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Muli', sans-serif; }
 
 .game-section {
   padding-bottom: 10px;

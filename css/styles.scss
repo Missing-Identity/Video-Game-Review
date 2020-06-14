@@ -1,7 +1,4 @@
 $lt-gray: #ddd;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
-$background-dark: #512DA8;
 $background-red: #ff1c03;
 $head-text-green: #27db87;
 $head-text-yellow: #fac907;
@@ -24,6 +21,7 @@ $card-content-color: #d3ff6b;
 .navbar-dark{
     background-image: linear-gradient($background-red, $head-text-yellow);
     border-bottom: 1px inset $lt-gray;
+    font-family: 'Muli', sans-serif;
 }
 
 div #FeaturedButton{
@@ -43,6 +41,7 @@ div #FeaturedButton{
 
 .breadcrumb{
     margin-top: 10px;
+    font-family: 'Muli', sans-serif;
 }
 
 .maincontent{
@@ -68,10 +67,12 @@ div #FeaturedButton{
 h2{
     padding-top: 20px;
     padding-bottom: 20px;
+    font-family: 'Muli', sans-serif;
 }
 
 p{
     padding-bottom: 10px;
+    font-family: 'Muli', sans-serif;
 }
 
 .carousel{
@@ -102,10 +103,12 @@ p{
 
 .navigation-instructions .row h2{
     color: $background-red;
+    font-family: 'Muli', sans-serif;
 }
 
 a button{
     background-color: $impo-button !important;
+    font-family: 'Muli', sans-serif;
 }
 
 .column{
@@ -118,6 +121,7 @@ a button{
     background-color: rgba(113, 204, 8, 0.7);
     border-radius: 10px;
     height: 270px;
+    font-family: 'Muli', sans-serif;
 }
 
 .gametitle{
@@ -129,6 +133,7 @@ a button{
 .gametitle h3{
     color: white;
     text-align: center;
+    font-family: 'Muli', sans-serif;
 }
 
 .game-section{
