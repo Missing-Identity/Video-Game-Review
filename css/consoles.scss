@@ -118,7 +118,7 @@ a button{
     background-color: rgba(113, 204, 8, 0.7);
     border-radius: 10px;
     height: auto;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .Nintendo .card{
@@ -126,19 +126,19 @@ a button{
     background-color: rgba(113, 204, 8, 0.7);
     border-radius: 10px;
     height: auto;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 
 .Nintendo .consolestitle{
     background-color: $background-red;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .consolestitle{
     background-color: $background-red;
     border-radius: 10px;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .consolestitle h3{
@@ -174,4 +174,17 @@ a button{
 
 .linkgame:hover{
     color: blue !important;
+}
+
+.log{
+    color: cornflowerblue !important;
+}
+
+.gt{
+    color: purple;
+}
+
+.ovr{
+    color: rebeccapurple;
+    font-weight: bold;
 }
