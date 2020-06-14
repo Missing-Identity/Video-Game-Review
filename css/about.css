@@ -53,3 +53,6 @@ a button:hover {
   background-color: #24292e !important;
   height: 80px;
   width: 55%; }
+
+i {
+  margin-right: 10px; }
