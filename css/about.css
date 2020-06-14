@@ -2,7 +2,8 @@
   margin: 0px auto;
   padding: 70px 30px;
   background-image: linear-gradient(#fac907, #ff1c03);
-  color: #fffad1; }
+  color: #fffad1;
+  font-family: 'Muli', sans-serif; }
 
 .navbar-dark {
   background-image: linear-gradient(#ff1c03, #fac907);

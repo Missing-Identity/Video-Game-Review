@@ -2,11 +2,13 @@
   margin: 0px auto;
   padding: 70px 30px;
   background-image: linear-gradient(#fac907, #ff1c03);
-  color: #fffad1; }
+  color: #fffad1;
+  font-family: 'Muli', sans-serif; }
 
 .navbar-dark {
   background-image: linear-gradient(#ff1c03, #fac907);
-  border-bottom: 1px inset #ddd; }
+  border-bottom: 1px inset #ddd;
+  font-family: 'Muli', sans-serif; }
 
 div #FeaturedButton {
   float: right; }
@@ -20,7 +22,8 @@ div #FeaturedButton {
   padding: 0px 0px 0px 0px; }
 
 .breadcrumb {
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-family: 'Muli', sans-serif; }
 
 .maincontent {
   background-color: rgba(211, 255, 107, 0.5);
@@ -29,44 +32,17 @@ div #FeaturedButton {
   padding-left: 30px;
   padding-right: 30px; }
 
-#FeaturedButton {
-  font-size: larger;
-  width: 200px;
-  height: 70px;
-  transition: width 0.5s, height 0.5s; }
-
-#FeaturedButton:hover {
-  width: 220px;
-  height: 80px; }
-
 h2 {
   padding-top: 20px;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  font-family: 'Muli', sans-serif; }
 
 p {
-  padding-bottom: 10px; }
-
-.carousel .carousel-item img {
-  position: relative;
-  max-height: 600px;
-  border-radius: 25px; }
+  padding-bottom: 10px;
+  font-family: 'Muli', sans-serif; }
 
 .indexcaro {
   margin-top: 15px; }
-
-.navigation-instructions {
-  background-color: rgba(211, 255, 107, 0.5);
-  border-radius: 5px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 20px; }
-
-.navigation-instructions .row h2 {
-  color: #ff1c03; }
-
-a button {
-  background-color: #e8a005 !important; }
 
 .column {
   float: left;
@@ -77,28 +53,33 @@ a button {
   background-color: rgba(113, 204, 8, 0.7);
   border-radius: 10px;
   height: auto;
-  margin-top: 0px; }
+  margin-top: 0px;
+  font-family: 'Muli', sans-serif; }
 
 .Nintendo .card {
   padding-bottom: 0px;
   background-color: rgba(113, 204, 8, 0.7);
   border-radius: 10px;
   height: auto;
-  margin-top: 5px; }
+  margin-top: 5px;
+  font-family: 'Muli', sans-serif; }
 
 .Nintendo .consolestitle {
   background-color: #ff1c03;
   border-radius: 10px;
-  margin-top: 20px; }
+  margin-top: 20px;
+  font-family: 'Muli', sans-serif; }
 
 .consolestitle {
   background-color: #ff1c03;
   border-radius: 10px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  font-family: 'Muli', sans-serif; }
 
 .consolestitle h3 {
   color: white;
-  text-align: center; }
+  text-align: center;
+  font-family: 'Muli', sans-serif; }
 
 .consoles-section {
   padding-bottom: 10px;
@@ -112,24 +93,29 @@ a button {
 
 .consolegame {
   text-decoration: none !important;
-  color: white; }
+  color: white;
+  font-family: 'Muli', sans-serif; }
 
 .consolegame:hover {
   color: #ee512f; }
 
 .linkgame {
   color: black !important;
-  text-decoration: none !important; }
+  text-decoration: none !important;
+  font-family: 'Muli', sans-serif; }
 
 .linkgame:hover {
   color: blue !important; }
 
 .log {
-  color: cornflowerblue !important; }
+  color: cornflowerblue !important;
+  font-family: 'Muli', sans-serif; }
 
 .gt {
-  color: purple; }
+  color: purple;
+  font-family: 'Muli', sans-serif; }
 
 .ovr {
   color: rebeccapurple;
-  font-weight: bold; }
+  font-weight: bold;
+  font-family: 'Muli', sans-serif; }
