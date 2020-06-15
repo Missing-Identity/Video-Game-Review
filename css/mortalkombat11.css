@@ -141,3 +141,6 @@ iframe {
 
 .accordioncolour:hover {
   color: blue !important; }
+
+.accordion {
+  margin-bottom: 15px; }

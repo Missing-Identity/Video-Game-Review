@@ -3,10 +3,7 @@ $tile-head-colour: rgb(210,191,150);
 $background-bright-yellow: rgb(252, 244, 3);
 $head-text-brown: rgb(84, 57, 2);
 $background-darkorange: rgb(214, 143, 0);
-$carousel-item-height: 500px;
-$carousel-item-transition: 500px;
 $head-text-light-orange: #e8a005;
-$card-content-color: #d3ff6b;
 
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
@@ -15,8 +12,6 @@ $card-content-color: #d3ff6b;
 
 .jumbotron{
     @include no-margin(70px, 30px);
-    // background-image: url("../img/Rocket-League-Car.jpg");
-    // background-size: cover;
     color: $head-text-brown;
     font-family: 'Muli', sans-serif;
 }
@@ -62,14 +57,11 @@ p{
 }
 
 .carousel{
-    // background: rgba(211, 255, 107 , 0.7);
     .carousel-item{
-        // height: $carousel-item-height;
             img{
                 position: relative;
                 max-height: 600px;
                 border-radius: 25px;
-                // max-width: 1300px;
             }
     }  
 }
@@ -199,4 +191,8 @@ iframe{
 
 .accordioncolour:hover{
     color: blue !important;
+}
+
+.accordion{
+    margin-bottom: 15px;
 }
