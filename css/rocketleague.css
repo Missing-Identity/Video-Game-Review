@@ -114,10 +114,10 @@ iframe {
   font-family: 'Muli', sans-serif; }
 
 .card-header {
-  height: 90px; }
+  height: 100px; }
 
 .card-body {
-  height: 150px; }
+  height: 50px; }
 
 .accordioncolour {
   color: #f5d400 !important;
