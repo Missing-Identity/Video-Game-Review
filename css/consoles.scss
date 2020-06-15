@@ -1,14 +1,6 @@
 $lt-gray: #ddd;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
-$background-dark: #512DA8;
 $background-red: #ff1c03;
-$head-text-green: #27db87;
 $head-text-yellow: #fac907;
-$carousel-item-height: 500px;
-$carousel-item-transition: 500px;
-$impo-button: #e8a005;
-$card-content-color: #d3ff6b;
 
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
@@ -48,14 +40,6 @@ div #FeaturedButton{
     font-family: 'Muli', sans-serif;
 }
 
-.maincontent{
-    background-color: rgba(211, 255, 107, 0.5);
-    border-radius: 5px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
 h2{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -65,15 +49,6 @@ h2{
 p{
     padding-bottom: 10px;
     font-family: 'Muli', sans-serif;
-}
-
-.indexcaro{
-    margin-top: 15px;
-}
-
-.column{
-    float: left;
-    width: 50%;
 }
 
 .card{
