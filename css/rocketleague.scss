@@ -1,12 +1,8 @@
 $lt-gray: #ddd;
-$background-light: #9575CD;
-$background-pale: #D1C4E9;
 $background-dark: rgba(4,18,40, 0.7);
 $background-darkblue: #0040c9;
 $head-text-yellow: #f5d400;
 $background-black: black;
-$carousel-item-height: 500px;
-$carousel-item-transition: 500px;
 $head-text-light-orange: #e8a005;
 $card-content-color: rgb(158,206,237);
 
@@ -47,14 +43,11 @@ p{
 }
 
 .carousel{
-    // background: rgba(211, 255, 107 , 0.7);
     .carousel-item{
-        // height: $carousel-item-height;
             img{
                 position: relative;
                 max-height: 600px;
                 border-radius: 25px;
-                // max-width: 1300px;
             }
     }  
 }
