@@ -1,9 +1,6 @@
 $lt-gray: #ddd;
 $background-red: #ff1c03;
-$head-text-green: #27db87;
 $head-text-yellow: #fac907;
-$impo-button: #e8a005;
-$card-content-color: #d3ff6b;
 
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
@@ -49,15 +46,6 @@ h2{
 
 p{
     padding-bottom: 10px;
-}
-
-a button{
-    background-color: $impo-button !important;
-}
-
-.column{
-    float: left;
-    width: 50%;
 }
 
 a button{

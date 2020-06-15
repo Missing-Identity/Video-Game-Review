@@ -34,13 +34,6 @@ p {
   padding-bottom: 10px; }
 
 a button {
-  background-color: #e8a005 !important; }
-
-.column {
-  float: left;
-  width: 50%; }
-
-a button {
   font-family: 'Muli', sans-serif;
   width: 50%;
   height: 60px;
