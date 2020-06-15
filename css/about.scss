@@ -2,6 +2,7 @@ $lt-gray: #ddd;
 $background-red: #ff1c03;
 $head-text-yellow: #fac907;
 
+//Similar to the styles.css for index page but cards and carousel styling/selectors are removed.
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
     padding: $pad-up-down $pad-left-right;
@@ -48,7 +49,7 @@ p{
     padding-bottom: 10px;
 }
 
-a button{
+a button{//Styling the github link button
     font-family: 'Muli', sans-serif;
     width: 50%;
     height: 60px;
@@ -60,7 +61,7 @@ a button{
     transition: width 0.5s, height 0.5s;
 }
 
-a button:hover{
+a button:hover{//Adding hover transition effects to the github link button.
     background-color: rgb(36,41,46) !important;
     height: 80px;
     width: 55%;

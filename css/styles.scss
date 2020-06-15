@@ -12,27 +12,27 @@ $impo-button: #e8a005;
     @include no-margin(70px, 30px);
     background-image: linear-gradient($head-text-yellow, $background-red);
     color: #fffad1;
-    font-family: 'Muli', sans-serif;
+    font-family: 'Muli', sans-serif;//Adding custom google fonts using this script.
 }
 
 .navbar-dark{
-    background-image: linear-gradient($background-red, $head-text-yellow);
+    background-image: linear-gradient($background-red, $head-text-yellow);//Adds gradient effect
     border-bottom: 1px inset $lt-gray;
     font-family: 'Muli', sans-serif;
 }
 
-div #FeaturedButton{
+div #FeaturedButton{//Ensuring that the button is to the far right
     float: right;
 }
 
 @media only screen and (max-width: 768px) {
     div #FeaturedButton{
-        float: none;
+        float: none;//This lets the button appear at the bottom rather than on the right only for small screens
     }
 }
 
 .body{
-    z-index: 0;
+    z-index: 0;//Setting z- index priority.
     padding: 0px 0px 0px 0px;
 }
 
@@ -53,10 +53,10 @@ div #FeaturedButton{
     font-size: larger;
     width: 200px;
     height: 70px;
-    transition: width 0.5s, height 0.5s;
+    transition: width 0.5s, height 0.5s;//Adding button transition effect
 }
 
-#FeaturedButton:hover{
+#FeaturedButton:hover{//Transition effect to trigger when mouse hovers over the button
     width: 220px;
     height: 80px;
 }
@@ -84,7 +84,7 @@ p{
 }
 
 a button{
-    background-color: $impo-button !important;
+    background-color: $impo-button !important;//Forcing bootstrap to change button colour using !important keyword.
     font-family: 'Muli', sans-serif;
 }
 

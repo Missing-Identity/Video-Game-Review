@@ -5,6 +5,7 @@ $head-text-white: white;
 $background-apex-white: rgb(251,246,241);
 $head-text-crimson: rgb(71,23,27);
 
+//Similar to Rocket League css/scss
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
     padding: $pad-up-down $pad-left-right;

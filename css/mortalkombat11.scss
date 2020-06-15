@@ -5,6 +5,7 @@ $head-text-brown: rgb(84, 57, 2);
 $background-darkorange: rgb(214, 143, 0);
 $head-text-light-orange: #e8a005;
 
+//This uses similar methods as the rocket league css/scss
 @mixin no-margin($pad-up-down, $pad-left-right){
     margin: 0px auto;
     padding: $pad-up-down $pad-left-right;

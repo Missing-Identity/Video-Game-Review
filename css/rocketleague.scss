@@ -91,18 +91,18 @@ p{
     color: $card-content-color;
 }
 
-iframe{
+iframe{//Setting the iframe content ratio to fit the page properly.
     border-radius: 20px;
     width: 687px;
     height: 315px;
     margin-bottom: 10px;
 }
 
-.hasmedia{
+.hasmedia{//This adds a bottom border for the paragraph with the iframe only.
     border-bottom: 2px solid rgb(254,251,250);
 }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 468px) {//Changing the iframe ratio only for small screens
     iframe{
         width: 360px;
         height: 220px;        
@@ -123,7 +123,7 @@ iframe{
     width: 100%;
 }
 
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px){//Changing carousel ratio for small screen.
     .gameimgcaro{
         margin-left: 150px;
         width: 100%;
