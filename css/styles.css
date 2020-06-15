@@ -26,7 +26,7 @@ div #FeaturedButton {
   font-family: 'Muli', sans-serif; }
 
 .maincontent {
-  background-color: rgba(211, 255, 107, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   border-radius: 5px;
   padding-bottom: 20px;
   padding-left: 30px;
@@ -51,25 +51,12 @@ p {
   padding-bottom: 10px;
   font-family: 'Muli', sans-serif; }
 
-.carousel .carousel-item img {
-  position: relative;
-  max-height: 600px;
-  border-radius: 25px; }
-
-.indexcaro {
-  margin-top: 15px; }
-
-.navigation-instructions {
-  background-color: rgba(211, 255, 107, 0.5);
-  border-radius: 5px;
-  padding-bottom: 20px;
-  padding-left: 30px;
-  padding-right: 30px;
-  margin-top: 20px; }
-
-.navigation-instructions .row h2 {
-  color: #ff1c03;
-  font-family: 'Muli', sans-serif; }
+.carousel {
+  margin-top: 10px; }
+  .carousel .carousel-item img {
+    position: relative;
+    max-height: 600px;
+    border-radius: 25px; }
 
 a button {
   background-color: #e8a005 !important;
@@ -105,3 +92,20 @@ a button {
   width: 100%;
   height: 320px;
   border-radius: 25px; }
+
+.carotitle {
+  margin-top: 10px;
+  text-align: center;
+  background-image: linear-gradient(#ff1c03, #fac907);
+  border-radius: 25px;
+  font-family: 'Muli', sans-serif;
+  border: 1px solid #ff1c03;
+  color: white; }
+
+.caropara {
+  margin-top: 10px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 25px;
+  font-family: 'Muli', sans-serif;
+  padding: 5px; }
